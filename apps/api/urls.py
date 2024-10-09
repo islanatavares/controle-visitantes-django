@@ -10,6 +10,7 @@ router.register(r'porteiros', PorteiroViewSet)
 router.register(r'visitantes', VisitanteViewSet)
 
 urlpatterns = [
-    path('', include(router.urls))
+    path('', include(router.urls)),
+ 
 ]
 
